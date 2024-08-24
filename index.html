@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título de su sitio web -->
+    <title>Encriptado</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="image/logo.png" alt="logo" />
+    </header>
+    <main class="content">
+        <section class="content-ingreso">
+            <!-- Campo para el texto que va a ser encriptado/desencriptado -->
+            <textarea type="text" rows="5" class="strong-ingresetexto">Lorem ipsum dolor sit amet consectetur adipiscing elit Orci montes sit et diam risus </textarea>
+
+            <div class="content-boton">
+                <!--Un botón para encriptar  -->
+                <button id="idEncriptar" type="button" >
+                    Encriptar
+                </button>
+
+                <!-- Un botón para desencriptar -->
+                <button id="idDesencriptar" type="button" ">
+                    Desencriptar
+                </button>
+
+                <!-- Área para mostrar el texto encriptado/desencriptado. -->
+<!--                 <input id="idMostrarTextoEncriptado" type="text" />
+ -->
+                <!--Extra!
+        Un rodapie con los datos de la persona que desarrolló el sitio web! -->
+            </div>
+        </section>
+        <section class="content-salida">
+            <img class="img_muneco" src="image/Muneco.png" alt="logo" />
+            <div class="contentMensajesalida">
+                <label type="text" class="mensajesalida">Ningún mensaje fue encontrado</label>
+                <label type="text" class="ingresetext">Ingresa el texto que desees encriptar o desencriptar.</label>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
